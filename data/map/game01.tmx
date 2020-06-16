@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#a0dcfa" nextlayerid="4" nextobjectid="34">
+ <tileset firstgid="1" source="game01_level_tiles.tsx"/>
+ <layer id="1" name="background" width="20" height="15">
+  <data encoding="base64">
+   BgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAAKQAAACkAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAA9AAAABgAAAAYAAAApAAAABgAAAAYAAAA9AAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAD0AAAAGAAAABgAAAAAAAAAOAAAALAAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAOAAAABgAAAAYAAAAGAAAABgAAAA4AAAAGAAAABgAAACkAAAAGAAAAAAAAACIAAAAAAAAAAAAAACwAAAAGAAAAPQAAAAYAAAAGAAAALQAAACIAAAAsAAAABgAAAAYAAAAAAAAAIgAAAAYAAAAGAAAABgAAAAYAAAAAAAAANgAAAAAAAAAAAAAADgAAAAYAAAAGAAAABgAAAC0AAAAAAAAANgAAAAAAAAAsAAAALQAAAAAAAAA2AAAALAAAAAYAAAAGAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAiAAAALAAAAC0AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAC0AAAAiAAAAAAAAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAwAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwAAAAUAAAAqAAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAXAAAABQAAAAUAAAAFAAAAKQAAAAYAAAAqAAAABQAAAFwAAABcAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAABcAAAAFAAAAKgAAACoAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAAcAAAAHAAAAAWAAAAAQAAAAAAAAAqAAAAKgAAAAUAAAAFAAAABQAAAAYAAAA9AAAABgAAAAYAAAAGAAAABgAAAD0AAAAGAAAAPQAAAAYAAAAZAAAAGQAAAAUAAAAFAAAABQAAAAYAAAApAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAACkAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAA9AAAABgAAAAYAAAAGAAAA
+  </data>
+ </layer>
+ <objectgroup id="2" name="entities">
+  <object id="1" name="mainPlayer" x="32.6478" y="350.08" width="32" height="64">
+   <properties>
+    <property name="framewidth" type="int" value="64"/>
+    <property name="image" value="gripe_run_right.png"/>
+   </properties>
+  </object>
+  <object id="29" x="178.958" y="574.359"/>
+  <object id="31" name="coinEntity" x="367.59" y="288.993" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="32" name="coinEntity" x="166.586" y="356.426" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="33" name="coinEntity" x="211.325" y="356.426" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="collision">
+  <object id="4" x="0" y="418.375" width="159.611" height="49.5762"/>
+  <object id="5" x="151.147" y="388.146" width="95.525" height="68.9231"/>
+  <object id="6" x="250.3" y="356.707" width="91.8974" height="83.4332"/>
+  <object id="7" x="353.08" y="326.478" width="62.8772" height="67.7139"/>
+  <object id="8" x="415.957" y="357.916" width="61.668" height="58.0405"/>
+  <object id="9" x="480.043" y="355.498" width="64.0864" height="102.78"/>
+  <object id="10" x="545.339" y="419.584" width="94.3158" height="50.7854"/>
+  <object id="12" x="130.591" y="134.219" width="30.2294" height="93.1066"/>
+  <object id="13" x="162.03" y="100.362" width="61.668" height="91.8974"/>
+  <object id="14" x="224.907" y="73.7598" width="62.8772" height="84.6424"/>
+  <object id="15" x="291.412" y="37.4845" width="29.0202" height="89.4791"/>
+  <object id="16" x="326.478" y="27.8111" width="27.8111" height="131.8"/>
+  <object id="17" x="355.498" y="6.04588" width="37.4845" height="120.918"/>
+  <object id="18" x="385.727" y="26.6019" width="60.4588" height="133.009"/>
+  <object id="19" x="546.548" y="96.7341" width="25.3927" height="120.918"/>
+  <object id="20" x="574.359" y="51.9946" width="35.0661" height="140.265"/>
+  <object id="21" x="609.425" y="45.9487" width="31.4386" height="174.121"/>
+  <object id="22" x="513.9" y="43.5304" width="31.4386" height="117.29"/>
+  <object id="23" x="480.043" y="36.2753" width="35.0661" height="120.918"/>
+  <object id="24" x="449.814" y="22.9744" width="26.6019" height="72.5506"/>
+  <object id="25" x="3.62753" y="7.25506" width="30.2294" height="56.8313"/>
+  <object id="26" x="32.6478" y="3.62753" width="33.857" height="153.565"/>
+  <object id="27" x="71.3414" y="-6.04588" width="59.2497" height="106.408"/>
+  <object id="28" x="135.428" y="10.8826" width="22.9744" height="120.918"/>
+ </objectgroup>
+</map>
