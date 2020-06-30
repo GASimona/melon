@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="45" height="15" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#a0dcfa" nextlayerid="5" nextobjectid="68">
+<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="45" height="15" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#1f4b73" nextlayerid="5" nextobjectid="70">
  <tileset firstgid="1" source="game01_level_tiles.tsx"/>
  <layer id="1" name="background" width="45" height="15">
   <data encoding="base64">
@@ -13,13 +13,7 @@
     <property name="image" value="gripe_run_right.png"/>
    </properties>
   </object>
-  <object id="31" name="coinEntity" x="367.59" y="288.993" width="32" height="32">
-   <properties>
-    <property name="framewidth" type="int" value="32"/>
-    <property name="image" value="spinning_coin_gold.png"/>
-   </properties>
-  </object>
-  <object id="32" name="enemyEntity" x="154.176" y="322.742" width="94.0499" height="64">
+  <object id="32" name="enemyEntity" x="324.37" y="260.692" width="94.0499" height="64">
    <properties>
     <property name="framewidth" type="int" value="32"/>
     <property name="image" value="spinning_coin_gold.png"/>
@@ -37,7 +31,7 @@
     <property name="image" value="spinning_coin_gold.png"/>
    </properties>
   </object>
-  <object id="36" name="coinEntity" x="329.706" y="290.704" width="32" height="32">
+  <object id="36" name="coinEntity" x="191.423" y="350.981" width="32" height="32">
    <properties>
     <property name="framewidth" type="int" value="32"/>
     <property name="image" value="spinning_coin_gold.png"/>
@@ -49,13 +43,7 @@
     <property name="image" value="spinning_coin_gold.png"/>
    </properties>
   </object>
-  <object id="38" name="coinEntity" x="932.476" y="191.424" width="32" height="32">
-   <properties>
-    <property name="framewidth" type="int" value="32"/>
-    <property name="image" value="spinning_coin_gold.png"/>
-   </properties>
-  </object>
-  <object id="39" name="coinEntity" x="989.208" y="320.842" width="32" height="32">
+  <object id="38" name="coinEntity" x="1122.17" y="384.665" width="32" height="32">
    <properties>
     <property name="framewidth" type="int" value="32"/>
     <property name="image" value="spinning_coin_gold.png"/>
@@ -67,13 +55,7 @@
     <property name="image" value="spinning_coin_gold.png"/>
    </properties>
   </object>
-  <object id="42" name="enemyEntity" x="614.249" y="349.163" width="150.781" height="64">
-   <properties>
-    <property name="framewidth" type="int" value="32"/>
-    <property name="image" value="spinning_coin_gold.png"/>
-   </properties>
-  </object>
-  <object id="59" name="enemyEntity" x="1098.24" y="354.482" width="278.426" height="64">
+  <object id="42" name="enemyEntity" x="614.249" y="354.482" width="150.781" height="64">
    <properties>
     <property name="framewidth" type="int" value="32"/>
     <property name="image" value="spinning_coin_gold.png"/>
@@ -97,14 +79,19 @@
     <property name="image" value="spinning_coin_gold.png"/>
    </properties>
   </object>
-  <object id="63" name="me.LevelEntity" x="1373.96" y="349.252" width="65.5956" height="72.687">
+  <object id="67" name="coinEntity" x="624" y="381.119" width="32" height="32">
    <properties>
-    <property name="to" value="game02"/>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold.png"/>
    </properties>
   </object>
-  <object id="64" x="1152.35" y="714.46"/>
-  <object id="65" x="313.795" y="707.368"/>
-  <object id="67" name="staticEnemy" x="479.512" y="356.255" width="65.6842" height="42.7258">
+  <object id="68" name="coinEntity" x="666.548" y="379.346" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="69" name="coinEntity" x="714.416" y="382.892" width="32" height="32">
    <properties>
     <property name="framewidth" type="int" value="32"/>
     <property name="image" value="spinning_coin_gold.png"/>
@@ -117,7 +104,7 @@
   <object id="6" x="252.073" y="349.616" width="68.8503" height="83.4332"/>
   <object id="7" x="322.941" y="326.478" width="93.0157" height="67.7139"/>
   <object id="8" x="414.184" y="352.597" width="61.668" height="58.0405"/>
-  <object id="9" x="478.27" y="398.046" width="64.0864" height="83.2786"/>
+  <object id="9" x="478.27" y="351.952" width="64.0864" height="102.78"/>
   <object id="10" x="545.339" y="419.584" width="94.3158" height="50.7854"/>
   <object id="13" x="162.03" y="-0.690632" width="61.668" height="192.95"/>
   <object id="14" x="224.907" y="2.84567" width="62.8772" height="155.557"/>
