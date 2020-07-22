@@ -133,6 +133,8 @@ game.PlayerEntity = me.Entity.extend({
                     // este ranit
                     this.hurt()
                 }
+                return true
+                break
 
             default: 
                 return true

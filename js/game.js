@@ -47,7 +47,7 @@ var game = {
         me.input.bindKey(me.input.KEY.W, "jump")
 
 
-        // Start the game.
-        me.state.change(me.state.PLAY);
+        // Show menu.
+        me.state.change(me.state.MENU);
     }
 };
